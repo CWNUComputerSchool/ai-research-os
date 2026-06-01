@@ -1659,6 +1659,12 @@ AI_Research/
 ├── docs/
 │   ├── FILE_STRUCTURE_GRAPH.md
 │   └── vscode-ai-adapter.md
+├── logo_pack/
+│   ├── cwnu-ai-logo-dark.svg
+│   ├── cwnu-ai-logo-full.svg
+│   ├── cwnu-ai-logo-guidelines.md
+│   ├── cwnu-ai-logo-mark.svg
+│   └── cwnu-ai-logo-preview.html
 ├── scripts/
 │   ├── backup.sh
 │   └── update_file_structure_graph.py

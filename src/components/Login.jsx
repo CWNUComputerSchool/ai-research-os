@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { LogIn, UserPlus, AlertCircle } from "lucide-react";
 import { api } from "../utils/api.js";
+import logoMark from "../../logo_pack/cwnu-ai-logo-mark.svg";
 
 export default function Login({ t, locale, onLogin }) {
   const [mode, setMode] = useState("login"); // login | register
@@ -41,17 +42,15 @@ export default function Login({ t, locale, onLogin }) {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white dark:bg-zinc-950">
+    <div className="min-h-screen flex items-center justify-center bg-[#F8FAFC] dark:bg-zinc-950">
       <div className="w-full max-w-sm mx-4">
         <div className="text-center mb-8">
-          <div className="h-12 w-12 rounded-xl bg-emerald-500/20 flex items-center justify-center mx-auto mb-4">
-            <div className="h-4 w-4 rounded-sm bg-emerald-500 rotate-45" />
-          </div>
+          <img className="h-20 w-20 mx-auto mb-4" src={logoMark} alt="" aria-hidden="true" />
           <h1 className="text-xl font-semibold text-main">{t.product}</h1>
-          <p className="text-sm text-muted mt-1">{isZh ? "高校 AI 科研操作系统" : "University AI Research OS"}</p>
+          <p className="text-sm text-muted mt-1">{isZh ? "CWNU AI Research OS" : "西华师范大学AI赋能科研系统"}</p>
         </div>
 
-        <form onSubmit={handleSubmit} className="surface p-6 space-y-4">
+        <form onSubmit={handleSubmit} className="surface p-6 space-y-4 border-t-4 border-t-[#0F766E]">
           <div className="flex rounded-lg bg-gray-100 dark:bg-white/5 p-0.5">
             <button
               type="button"
@@ -127,7 +126,7 @@ export default function Login({ t, locale, onLogin }) {
             </div>
           )}
 
-          <button className="btn-primary w-full" type="submit" disabled={loading}>
+          <button className="btn-primary w-full bg-[#0F766E] hover:bg-[#10B981] shadow-[#0F766E]/20" type="submit" disabled={loading}>
             {loading ? (
               <div className="h-4 w-4 rounded-full border-2 border-white border-t-transparent animate-spin mx-auto" />
             ) : mode === "register" ? (

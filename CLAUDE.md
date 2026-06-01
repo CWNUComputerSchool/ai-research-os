@@ -111,6 +111,34 @@ tests/                    # Node.js test suite
 - **Styling**: Tailwind utility classes + reusable classes in `styles.css`.
 - **Chinese first**: Default strings are in `zh`, `en` is secondary but complete.
 
+### CWNU brand and logo design principle
+
+- **Chinese product name starts with the university**: use `西华师范大学AI赋能科研系统`
+  as the primary Chinese name. The English companion name is `CWNU AI Research OS`.
+- **Use only the logo mark in UI chrome**: import `logo_pack/cwnu-ai-logo-mark.svg`
+  for headers, login screens, favicons, app icons, compact navigation, and other
+  repeated interface surfaces.
+- **Do not use the full text lockup SVG in the website UI**: avoid
+  `cwnu-ai-logo-full.svg` and `cwnu-ai-logo-dark.svg` for product chrome because
+  the embedded text renders poorly at app-header sizes. Render all product text
+  as normal HTML text using the site font stack instead.
+- **Use SVG, not PNG, for the app logo**: do not switch to the generated `.svg.png`
+  previews for the website. They are reference previews only and will scale worse
+  than the SVG mark.
+- **Keep small-size logo rendering crisp**: avoid heavy SVG filters, soft shadows,
+  blur effects, or tiny decorative details when the mark is displayed under 48px.
+  If a logo looks soft, simplify the mark or remove filters instead of replacing
+  it with a bitmap.
+- **Brand palette**: prefer the logo system colors for accents: academic ink
+  `#17202A`, university teal `#0F766E`, AI emerald `#10B981`, intelligence blue
+  `#2563EB`, knowledge gold `#F59E0B`, and soft background `#F8FAFC`.
+- **Typography**: Chinese and English brand text must be live text, not embedded
+  SVG text. Use the existing font stack: Inter, Noto Sans SC, Microsoft YaHei,
+  PingFang SC, Arial, sans-serif.
+- **Header composition**: use the mark plus live product text. On tight mobile
+  widths, the mark alone is acceptable; do not squeeze the full Chinese name into
+  an image.
+
 ### Tests
 
 - **Runner**: `node:test` (`node --test tests/file.test.js`)

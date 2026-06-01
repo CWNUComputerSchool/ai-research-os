@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Dark background logo for 西华师范大学AI赋能科研系统</title>
+  <desc id="desc">Horizontal logo optimized for dark website headers and dark mode.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="56" y1="46" x2="296" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14B8A6"/>
+      <stop offset="0.52" stop-color="#34D399"/>
+      <stop offset="1" stop-color="#60A5FA"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="104" y1="92" x2="238" y2="236" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FDE68A"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="365" y1="118" x2="1090" y2="118" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="0.62" stop-color="#99F6E4"/>
+      <stop offset="1" stop-color="#93C5FD"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="#09090B"/>
+
+  <g transform="translate(50 40)">
+    <circle cx="140" cy="140" r="132" fill="#18181B"/>
+    <path d="M140 16a124 124 0 1 1-93.9 205.1" fill="none" stroke="url(#markGradient)" stroke-width="18" stroke-linecap="round"/>
+    <path d="M48 67a123 123 0 0 1 101-51" fill="none" stroke="url(#goldGradient)" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="140" cy="140" r="100" fill="#0F1F1B" stroke="#1E3A34" stroke-width="2"/>
+
+    <path d="M70 158c28-22 55-22 82 0v72c-27-21-54-21-82 0z" fill="#101A17" stroke="#5EEAD4" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M152 158c27-22 54-22 82 0v72c-28-21-55-21-82 0z" fill="#101A17" stroke="#5EEAD4" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M152 158v72" stroke="#5EEAD4" stroke-width="8" stroke-linecap="round"/>
+    <path d="M92 180c16-7 31-7 45 0M92 202c16-7 31-7 45 0M171 180c15-7 30-7 45 0M171 202c15-7 30-7 45 0" stroke="#3E756A" stroke-width="5" stroke-linecap="round"/>
+
+    <path d="M89 117c25-36 76-47 114-24" fill="none" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/>
+    <path d="M104 100c16-14 37-20 58-17" fill="none" stroke="#34D399" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="90" cy="117" r="9" fill="#60A5FA"/>
+    <circle cx="162" cy="83" r="8" fill="#34D399"/>
+    <circle cx="203" cy="94" r="9" fill="#FBBF24"/>
+    <path d="M90 117l72-34 41 11" stroke="#5EEAD4" stroke-width="4" stroke-linecap="round"/>
+
+    <g transform="translate(118 112)">
+      <rect x="0" y="0" width="52" height="34" rx="10" fill="#F8FAFC"/>
+      <text x="26" y="24" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" fill="#17202A">AI</text>
+    </g>
+  </g>
+
+  <g transform="translate(365 91)">
+    <text x="0" y="0" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="48" font-weight="800" fill="url(#textGradient)">西华师范大学AI赋能科研系统</text>
+    <text x="3" y="56" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="760" letter-spacing="2.8" fill="#99F6E4">CWNU AI RESEARCH OS</text>
+    <path d="M4 88h526" stroke="#3F3F46" stroke-width="2" stroke-linecap="round"/>
+    <g transform="translate(0 116)" font-family="'Noto Sans SC','Microsoft YaHei','PingFang SC',Arial,sans-serif" font-size="18" font-weight="600">
+      <rect x="0" y="-24" width="132" height="38" rx="19" fill="#064E3B"/>
+      <text x="66" y="0" text-anchor="middle" fill="#A7F3D0">Deep Research</text>
+      <rect x="148" y="-24" width="112" height="38" rx="19" fill="#1E3A8A"/>
+      <text x="204" y="0" text-anchor="middle" fill="#BFDBFE">NotebookLM</text>
+      <rect x="276" y="-24" width="126" height="38" rx="19" fill="#78350F"/>
+      <text x="339" y="0" text-anchor="middle" fill="#FDE68A">学术雷达</text>
+      <rect x="418" y="-24" width="116" height="38" rx="19" fill="#052E2B"/>
+      <text x="476" y="0" text-anchor="middle" fill="#99F6E4">AI读写</text>
+    </g>
+  </g>
+</svg>

@@ -59,6 +59,10 @@ function AppContent() {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  useEffect(() => {
+    document.title = locale === "zh" ? "西华师范大学 · AI赋能科研系统" : "CWNU · AI Research OS";
+  }, [locale]);
+
   function toggleTheme() { setTheme((t) => (t === "light" ? "dark" : "light")); }
 
   // Load data after auth

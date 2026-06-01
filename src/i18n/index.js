@@ -1,6 +1,6 @@
 const copy = {
   zh: {
-    product: "高校 AI 科研操作系统",
+    product: "西华师范大学AI赋能科研系统",
     headline: "用一个聊天框调度论文发现、阅读、追踪、共享与写作",
     subhead:
       "教师可以继续使用传统页面，也可以直接在 AI 中心完成全部科研流程。系统把论文、PDF、聊天、笔记、爬虫、看板和草稿沉淀为可复用的校内科研记忆。",
@@ -151,7 +151,7 @@ const copy = {
     dashboardCreated: "仪表盘已创建",
   },
   en: {
-    product: "University AI Research OS",
+    product: "CWNU AI Research OS",
     headline: "One chat box for paper discovery, reading, tracking, sharing, and writing",
     subhead:
       "Teachers can use classic pages or complete the whole research workflow from the AI center. Papers, PDFs, chats, notes, crawlers, boards, and drafts become reusable institutional research memory.",

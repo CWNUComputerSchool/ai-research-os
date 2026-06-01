@@ -1,20 +1,19 @@
 import React from "react";
 import { Globe2, PanelRightOpen, Sun, Moon, LogOut, User } from "lucide-react";
+import logoMark from "../../logo_pack/cwnu-ai-logo-mark.svg";
 
 export default function Header({ t, locale, switchLocale, theme, toggleTheme, onToggleContext, user, onLogout }) {
   return (
     <header className="glass sticky top-0 z-40 flex h-14 items-center justify-between px-4">
       <div className="flex items-center gap-3 min-w-0">
-        <div className="flex items-center gap-2">
-          <div className="h-7 w-7 rounded-lg bg-emerald-500/20 flex items-center justify-center">
-            <div className="h-2.5 w-2.5 rounded-sm bg-emerald-500 rotate-45" />
-          </div>
-          <span className="text-sm font-semibold tracking-tight text-main hidden sm:inline">
+        <div className="flex items-center gap-2 min-w-0" aria-label={t.product}>
+          <img className="h-9 w-9 shrink-0" src={logoMark} alt="" aria-hidden="true" />
+          <span className="min-w-0 text-sm font-semibold tracking-tight text-main hidden sm:inline truncate">
             {t.product}
           </span>
         </div>
         <span className="hidden lg:inline text-faint text-xs">&middot;</span>
-        <span className="hidden lg:inline text-muted text-xs truncate max-w-md">{t.headline}</span>
+        <span className="hidden xl:inline text-muted text-xs truncate max-w-md">{t.headline}</span>
       </div>
 
       <div className="flex items-center gap-1">

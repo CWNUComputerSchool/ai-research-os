@@ -33,7 +33,7 @@ export default function Navigation({ activeView, setActiveView, t, stats, tokenU
             className={cn(
               "flex items-center gap-3 rounded-lg px-3 h-9 text-[13px] font-medium transition-all duration-200 w-full",
               active
-                ? "bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 shadow-sm"
+                ? "bg-gradient-to-r from-[#0F766E] to-[#2563EB] text-white shadow-sm shadow-emerald-900/10"
                 : "text-dull hover:text-main hover:bg-gray-200/70 dark:hover:bg-white/5",
             )}
             type="button" onClick={() => setActiveView(item.id)}
@@ -53,7 +53,7 @@ export default function Navigation({ activeView, setActiveView, t, stats, tokenU
         </div>
         <div className="h-1 rounded-full bg-gray-200 dark:bg-white/5 overflow-hidden">
           <div
-            className="h-full rounded-full transition-all duration-500 bg-emerald-500"
+            className="h-full rounded-full transition-all duration-500 bg-gradient-to-r from-[#10B981] via-[#2563EB] to-[#F59E0B]"
             style={{ width: `${percentUsed}%` }}
           />
         </div>

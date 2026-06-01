@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">CWNU AI research system logo mark</title>
+  <desc id="desc">Standalone icon mark for 西华师范大学AI赋能科研系统.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="64" y1="56" x2="448" y2="456" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F766E"/>
+      <stop offset="0.52" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="118" y1="100" x2="278" y2="268" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8C451"/>
+      <stop offset="1" stop-color="#D9911B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="108" fill="#F8FAFC"/>
+  <g transform="translate(56 56)">
+    <circle cx="200" cy="200" r="188" fill="#FFFFFF"/>
+    <path d="M200 24a176 176 0 1 1-133.2 291.1" fill="none" stroke="url(#markGradient)" stroke-width="26" stroke-linecap="round"/>
+    <path d="M69 96a174 174 0 0 1 144-72" fill="none" stroke="url(#goldGradient)" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="200" cy="200" r="143" fill="#F7FEFC" stroke="#D7F4E7" stroke-width="4"/>
+
+    <path d="M99 224c40-31 78-31 116 0v102c-38-30-76-30-116 0z" fill="#FFFFFF" stroke="#0F766E" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M215 224c38-31 76-31 116 0v102c-40-30-78-30-116 0z" fill="#FFFFFF" stroke="#0F766E" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M215 224v102" stroke="#0F766E" stroke-width="12" stroke-linecap="round"/>
+    <path d="M131 255c22-10 43-10 64 0M131 287c22-10 43-10 64 0M242 255c22-10 43-10 64 0M242 287c22-10 43-10 64 0" stroke="#B8DCCD" stroke-width="7" stroke-linecap="round"/>
+
+    <path d="M112 164c36-52 108-67 162-34" fill="none" stroke="#2563EB" stroke-width="12" stroke-linecap="round"/>
+    <path d="M133 140c23-20 53-28 83-24" fill="none" stroke="#10B981" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="112" cy="164" r="14" fill="#2563EB"/>
+    <circle cx="216" cy="116" r="12" fill="#10B981"/>
+    <circle cx="274" cy="130" r="14" fill="#F59E0B"/>
+    <path d="M112 164l104-48 58 14" stroke="#99D8C2" stroke-width="6" stroke-linecap="round"/>
+
+    <g transform="translate(169 156)">
+      <rect x="0" y="0" width="74" height="50" rx="15" fill="#17202A"/>
+      <text x="37" y="35" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="800" fill="#FFFFFF">AI</text>
+    </g>
+  </g>
+</svg>
