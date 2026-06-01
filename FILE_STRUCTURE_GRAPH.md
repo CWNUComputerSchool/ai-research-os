@@ -1665,6 +1665,8 @@ AI_Research/
 │   ├── cwnu-ai-logo-guidelines.md
 │   ├── cwnu-ai-logo-mark.svg
 │   └── cwnu-ai-logo-preview.html
+├── public/
+│   └── favicon.svg
 ├── scripts/
 │   ├── backup.sh
 │   └── update_file_structure_graph.py
